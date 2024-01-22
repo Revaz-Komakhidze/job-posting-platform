@@ -68,3 +68,20 @@ input {
 
   transform: scale(1.1);
 }
+
+/* CONTAINER */
+.container {
+  margin: 0 12px;
+  margin-top: 27px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 616px;
+  width: 976px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  border-top-right-radius: 9px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.07);
+  margin-top: 40px;
+  animation: intro 0.3s 0.2s backwards;
+}
