@@ -32,6 +32,11 @@ input {
   font: inherit;
 }
 
+/* UTILITIES */
+.u-bold {
+  font-weight: 700;
+}
+
 /* BACKGROUND */
 .background {
   position: absolute;
@@ -85,3 +90,38 @@ input {
   margin-top: 40px;
   animation: intro 0.3s 0.2s backwards;
 }
+
+/* FOOTER */
+.footer {
+  max-width: 1000px;
+  padding: 0 12px;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #a4a9ac;
+}
+
+/* HEADER */
+.header {
+  margin-bottom: 13px;
+  position: relative;
+
+  margin-bottom: 0;
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  padding: 0 12px;
+  margin: 0 auto;
+  padding-top: 12px;
+  position: relative;
+  justify-content: center;
+  padding-top: 40px;
+
+  animation: intro 0.3s;
+}
+
