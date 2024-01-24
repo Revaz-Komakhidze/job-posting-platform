@@ -7,7 +7,7 @@ export default function Footer() {
           <a href="." target="_blank">
             Company Website
           </a>
-          . Intended for improving React skills.
+          Intended for improving React skills.
         </p>
       </small>
 
