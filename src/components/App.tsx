@@ -13,8 +13,8 @@ function App() {
 
       <Header>
         <HeaderTop>
-          <Logo />
           <BookmarksButton />
+          <Logo />
         </HeaderTop>
       </Header>
 
