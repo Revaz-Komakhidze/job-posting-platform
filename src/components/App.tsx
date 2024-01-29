@@ -1,8 +1,8 @@
 import Background from "./Background";
 import BookmarksButton from "./BookmarksButton";
-import Container from "./Container";
-import Footer from "./Footer";
-import Header, { HeaderTop } from "./Header";
+import Container from "./layout/Container";
+import Footer from "./layout/Footer";
+import Header, { HeaderTop } from "./layout/Header";
 import Logo from "./Logo";
 import SearchForm from "./SearchForm";
 
@@ -13,8 +13,8 @@ function App() {
 
       <Header>
         <HeaderTop>
-          <BookmarksButton />
           <Logo />
+          <BookmarksButton />
         </HeaderTop>
       </Header>
 
