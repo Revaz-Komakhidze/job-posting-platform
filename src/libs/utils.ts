@@ -8,7 +8,7 @@ export const handleError = (error: unknown) => {
   } else if (typeof error === "string") {
     message = error;
   } else {
-    message = "An error occurred.";
+    message = "An error occurred!";
   }
 
   toast.error(message);
