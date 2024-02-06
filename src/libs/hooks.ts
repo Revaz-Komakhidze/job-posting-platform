@@ -2,6 +2,7 @@ import { JobItem, JobItemExpanded } from "./types";
 import { BASE_API_URL } from "./constants";
 import { useQueries, useQuery } from "@tanstack/react-query";
 import { handleError } from "./utils";
+import { useEffect, useState } from "react";
 
 type JobItemApiResponse = {
   public: boolean;
@@ -101,4 +102,16 @@ export function useSearchQuery(searchText: string) {
     jobItems: data?.jobItems,
     isLoading: isInitialLoading,
   } as const;
+}
+
+export function useDebounce<T>(value: T, delay = 500): T {
+  const [debouncedValue, setDebouncedValue] = useState(value);
+
+  useEffect(() => {
+    const timerId = setTimeout(() => setDebouncedValue(value), delay);
+
+    return () => clearTimeout(timerId);
+  }, [value, delay]);
+
+  return debouncedValue;
 }
