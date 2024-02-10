@@ -397,9 +397,6 @@ body::-webkit-scrollbar {
   background-color: #d96a46;
 } */
 
-.job-item__middle {
-}
-
 .job-item__company {
   font-size: 13px;
   /* margin-bottom: 2px; */
@@ -726,9 +723,6 @@ body::-webkit-scrollbar {
   user-select: none;
 }
 
-.job-details__other {
-}
-
 .job-details__footer {
   margin-left: 42px;
   margin-right: 42px;
@@ -1020,9 +1014,6 @@ body::-webkit-scrollbar {
   border-right: 5px solid #e2e7e9;
   border-bottom: 5px solid #e2e7e9;
   border-left: 5px solid #ccd1d3;
-}
-
-.spinner--search {
 }
 
 .spinner--job-details {
